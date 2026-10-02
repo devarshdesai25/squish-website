@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="448" viewBox="0 0 496 448">
+  <title>Squish mascot – paper</title>
+  <defs>
+    <radialGradient id="mBodyFill" cx="0.34" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#B9AEFF"/>
+      <stop offset="0.55" stop-color="#7E6DFA"/>
+      <stop offset="1" stop-color="#5842E6"/>
+    </radialGradient>
+    <linearGradient id="mGlossFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="mBlushFill" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF9EC4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF9EC4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mShadowFill" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5B49E6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5B49E6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Squish mascot" transform="scale(4)">
+    <ellipse id="Ground shadow" cx="60" cy="103" rx="50" ry="8" fill="url(#mShadowFill)"/>
+    <path id="Body" d="M24 99 C8 99 5 80 11 65 C17 49 21 27 40 16 C59 5 84 9 96 26 C108 43 112 66 109 82 C107 96 97 100 84 100 Z" fill="url(#mBodyFill)"/>
+    <ellipse id="Gloss" cx="41" cy="30" rx="14" ry="7.5" fill="url(#mGlossFill)" transform="rotate(-30 41 30)"/>
+    <g id="Face">
+    <g id="Eyes">
+      <g id="Left eye">
+        <circle id="Left eye white" cx="58" cy="47" r="10" fill="#FFFFFF"/>
+        <circle id="Left pupil" cx="60.5" cy="48.5" r="5.8" fill="#1F1650"/>
+        <circle id="Left shine" cx="62.6" cy="45.8" r="1.9" fill="#FFFFFF"/>
+      </g>
+      <g id="Right eye">
+        <circle id="Right eye white" cx="81.5" cy="45" r="10" fill="#FFFFFF"/>
+        <circle id="Right pupil" cx="84" cy="46.5" r="5.8" fill="#1F1650"/>
+        <circle id="Right shine" cx="86.1" cy="43.8" r="1.9" fill="#FFFFFF"/>
+      </g>
+    </g>
+      <ellipse id="Left blush" cx="47" cy="61" rx="7" ry="4.5" fill="url(#mBlushFill)"/>
+      <ellipse id="Right blush" cx="94" cy="58" rx="7" ry="4.5" fill="url(#mBlushFill)"/>
+      <path id="Smile" d="M65 59.5 Q70.5 65.5 76 59.5" fill="none" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+    <g id="Paper" transform="rotate(-10 72 84)">
+      <rect id="Sheet" x="55" y="66" width="34" height="40" rx="4.5" fill="#FFFFFF" stroke="#E2DDFF" stroke-width="1.4"/>
+      <path id="Fold" d="M80 66 L89 66 L89 75 Z" fill="#E9E5FF"/>
+      <path id="Lines" d="M62 77 H81 M62 84 H82 M62 91 H75" fill="none" stroke="#5B49E6" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+    <g id="Hands">
+      <ellipse id="Left hand" cx="54.5" cy="87" rx="6.5" ry="5.5" fill="#5A47E8"/>
+      <ellipse id="Right hand" cx="89.5" cy="81" rx="6.5" ry="5.5" fill="#5A47E8"/>
+    </g>
+    <g id="Sparkle">
+      <path d="M104 14 L109 6" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M111 21 L119 18" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M110 30 L118 31" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

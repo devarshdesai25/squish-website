@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="448" viewBox="0 0 496 448">
+  <title>Squish mascot – sleepy</title>
+  <defs>
+    <radialGradient id="mBodyFill" cx="0.34" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#B9AEFF"/>
+      <stop offset="0.55" stop-color="#7E6DFA"/>
+      <stop offset="1" stop-color="#5842E6"/>
+    </radialGradient>
+    <linearGradient id="mGlossFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="mBlushFill" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF9EC4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF9EC4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mShadowFill" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5B49E6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5B49E6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Squish mascot" transform="scale(4)">
+    <ellipse id="Ground shadow" cx="60" cy="103" rx="50" ry="8" fill="url(#mShadowFill)"/>
+    <path id="Body" d="M24 99 C8 99 5 80 11 65 C17 49 21 27 40 16 C59 5 84 9 96 26 C108 43 112 66 109 82 C107 96 97 100 84 100 Z" fill="url(#mBodyFill)"/>
+    <ellipse id="Gloss" cx="41" cy="30" rx="14" ry="7.5" fill="url(#mGlossFill)" transform="rotate(-30 41 30)"/>
+    <g id="Face">
+    <g id="Eyes (closed)">
+      <path id="Left lid" d="M51 49 Q58 55 65 49" fill="none" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+      <path id="Right lid" d="M75 47 Q82 53 89 47" fill="none" stroke="#1F1650" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+      <ellipse id="Left blush" cx="47" cy="61" rx="7" ry="4.5" fill="url(#mBlushFill)"/>
+      <ellipse id="Right blush" cx="94" cy="58" rx="7" ry="4.5" fill="url(#mBlushFill)"/>
+      <path id="Mouth" d="M66 61 Q70.5 63.5 75 61" fill="none" stroke="#1F1650" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <g id="Zzz" fill="none" stroke="#1F1650" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M100 12 H108 L100 20 H108"/>
+      <path d="M112 2 H117 L112 7 H117"/>
+    </g>
+  </g>
+</svg>
